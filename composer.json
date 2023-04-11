@@ -1,0 +1,22 @@
+{
+    "name": "ixeq/pop-it",
+    "description": "practika",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ixeq",
+            "email": "tim.matyskin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
